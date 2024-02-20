@@ -8,8 +8,7 @@
 			name="description"
 			content="Dive into Campbell Reid's world, where software engineering meets entrepreneurship. Explore a portfolio of innovative projects, insightful blog posts on programming and business ventures, and connect with a rising talent in technology."
 		/>
-
-		<!-- Always put this before the closing head tag -->
+		<!-- Bootstrap -->
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -22,6 +21,21 @@
 			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
 			crossorigin="anonymous"
 		></script>
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css"
+			integrity="sha512-d0olNN35C6VLiulAobxYHZiXJmq+vl+BGIgAxQtD5+kqudro/xNMvv2yIHAciGHpExsIbKX3iLg+0B6d0k4+ZA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/brands.min.css"
+			integrity="sha512-8RxmFOVaKQe/xtg6lbscU9DU0IRhURWEuiI0tXevv+lXbAHfkpamD4VKFQRto9WgfOJDwOZ74c/s9Yesv3VvIQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 	</head>
 	<body>
 		<header>
@@ -59,102 +73,70 @@
 				</div>
 			</nav>
 		</header>
-		<section class="hero-section text-center py-5">
-			<div class="container">
-				<h1>Imagine the future, then build it.</h1>
-				<p class="tagline">
-					Welcome to the intersection of technology and curiosity,
-					where challenges are met with innovative software solutions.
-				</p>
-				<a href="#" class="btn btn-primary mt-3">See My Work</a>
-			</div>
-		</section>
-		<section class="about-me-teaser py-5">
-			<div class="container">
-				<h2>About Campbell</h2>
-				<p>
-					At just 22, Campbell Reid has transformed a childhood
-					passion for programming into a burgeoning career poised to
-					shape the future of software engineering. From creating
-					Minecraft mods at 11 to excelling in Math, IT, and Physics,
-					Campbell's journey is one of relentless pursuit of
-					excellence. Currently in the final year at Griffith
-					University on a scholarship, Campbell balances a stellar
-					academic record with practical experience as a Junior Web
-					Developer. Embedded Systems, Full Stack Development, and
-					Algorithmic Design are not just skills but passions that
-					drive him to push the boundaries of what's possible.
-				</p>
-				<a href="#" class="btn btn-outline-secondary">
-					Learn More About Me
-				</a>
-			</div>
-		</section>
-		<section class="featured-projects py-5">
-			<div class="container">
-				<h2>Featured Projects</h2>
-				<!-- Project items here -->
-				<div class="row">
-					<div class="col-md-4 mb-4">
-						<div class="card">
-							<img
-								src="project-image.jpg"
-								class="card-img-top"
-								alt="Project Image"
-							/>
-							<div class="card-body">
-								<h5 class="card-title">Project Title</h5>
-								<p class="card-text">
-									Short project description.
-								</p>
-								<a href="#" class="btn btn-primary"
-									>Explore Project</a
-								>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 mb-4">
-						<div class="card">
-							<img
-								src="project-image.jpg"
-								class="card-img-top"
-								alt="Project Image"
-							/>
-							<div class="card-body">
-								<h5 class="card-title">Project Title</h5>
-								<p class="card-text">
-									Short project description.
-								</p>
-								<a href="#" class="btn btn-primary"
-									>Explore Project</a
-								>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 mb-4">
-						<div class="card">
-							<img
-								src="project-image.jpg"
-								class="card-img-top"
-								alt="Project Image"
-							/>
-							<div class="card-body">
-								<h5 class="card-title">Project Title</h5>
-								<p class="card-text">
-									Short project description.
-								</p>
-								<a href="#" class="btn btn-primary"
-									>Explore Project</a
-								>
-							</div>
-						</div>
-					</div>
-					<!-- Repeat for other projects -->
+		<main>
+			<section class="hero-section text-center py-5">
+				<div class="container">
+					<h1>Imagine the future, then build it.</h1>
+					<p class="tagline">
+						Welcome to the intersection of technology and curiosity,
+						where challenges are met with innovative software
+						solutions.
+					</p>
+					<a href="#" class="btn btn-primary mt-3">See My Work</a>
 				</div>
-				<a href="#" class="btn btn-outline-primary"
-					>Explore the Portfolio</a
-				>
+			</section>
+			<section class="about-me-teaser py-5">
+				<div class="container">
+					<h2>About Campbell</h2>
+					<p>
+						At just 22, Campbell Reid has transformed a childhood
+						passion for programming into a burgeoning career poised
+						to shape the future of software engineering. From
+						creating Minecraft mods at 11 to excelling in Math, IT,
+						and Physics, Campbell's journey is one of relentless
+						pursuit of excellence. Currently in the final year at
+						Griffith University on a scholarship, Campbell balances
+						a stellar academic record with practical experience as a
+						Junior Web Developer. Embedded Systems, Full Stack
+						Development, and Algorithmic Design are not just skills
+						but passions that drive him to push the boundaries of
+						what's possible.
+					</p>
+					<a href="#" class="btn btn-outline-secondary">
+						Learn More About Me
+					</a>
+				</div>
+			</section>
+		</main>
+		<footer class="footer bg-light py-4">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col">
+						<ul class="list-unstyled">
+							<li><a href="#">About Me</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Portfolio</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+					<div class="col">
+						<!-- Social media icons -->
+						<a href="#" class="mx-2"
+							><i class="fab fa-facebook-f fa-lg"></i
+						></a>
+						<a href="#" class="mx-2"
+							><i class="fab fa-twitter fa-lg"></i
+						></a>
+						<a href="#" class="mx-2"
+							><i class="fab fa-instagram fa-lg"></i
+						></a>
+						<!-- Add more as needed -->
+					</div>
+					<div class="col">
+						<p>Contact Information snippet</p>
+					</div>
+				</div>
 			</div>
-		</section>
+		</footer>
 	</body>
 </html>
