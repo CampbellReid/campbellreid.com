@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "minify": "minify -r -s -o out src"
+    "minify": "cd src && minify -r -s -o ../out ."
   },
   "author": "Campbell Reid",
   "license": "MIT"
