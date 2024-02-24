@@ -9,12 +9,12 @@
 			content="Discover Campbell Reid's journey from university to impacting lives through software engineering. Explore projects, insights, and the vision for a better future through technology."
 		/>
 		<!-- Bootstrap -->
-		<!--<link
+		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
 			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
 			crossorigin="anonymous"
-		/>-->
+		/>
 		<script
 			defer
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -22,7 +22,7 @@
 			crossorigin="anonymous"
 		></script>
 		<!-- Font Awesome -->
-		<!--<link
+		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css"
 			integrity="sha512-d0olNN35C6VLiulAobxYHZiXJmq+vl+BGIgAxQtD5+kqudro/xNMvv2yIHAciGHpExsIbKX3iLg+0B6d0k4+ZA=="
@@ -35,8 +35,13 @@
 			integrity="sha512-8RxmFOVaKQe/xtg6lbscU9DU0IRhURWEuiI0tXevv+lXbAHfkpamD4VKFQRto9WgfOJDwOZ74c/s9Yesv3VvIQ=="
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
-		/>-->
-		<link rel="stylesheet" href="assets/css/styles.css" />
+		/>
+		<!-- web3forms -->
+		<script
+			src="https://web3forms.com/client/script.js"
+			async
+			defer
+		></script>
 	</head>
 	<body>
 		<!-- Hero Section -->
@@ -70,7 +75,7 @@
 		<!-- About Me Section -->
 		<section class="my-5">
 			<div class="container">
-				<h2 class="text-center mb-4">About Me</h2>
+				<h2 class="text-center mb-4">About Campbell</h2>
 				<!-- Detailed narrative based on provided copy -->
 				<p>
 					In a world where technology holds the power to transform
@@ -112,17 +117,10 @@
 
 		<!-- Contact Information -->
 		<section class="bg-light p-5">
-			<div class="container">
-				<h2 class="text-center mb-4">Contact Information</h2>
-				<!-- Placeholder for Contact Form or Direct Contact Information -->
-				<p class="text-center">
-					Feel free to reach out to me via email at
-					<a href="mailto:campbell@campbellreid.com"
-						>campbell@campbellreid.com</a
-					>.
-				</p>
+			<div class="text-center container">
+				<h2 class="mb-4">Message Me</h2>
 				<!-- Placeholder for Social Media Links -->
-				<div class="text-center">
+				<div class="mb-3">
 					<a
 						href="https://www.linkedin.com/in/campbell-reid/"
 						class="btn btn-primary mx-2"
@@ -138,6 +136,63 @@
 						<i class="fab fa-github pe-1"></i> GitHub
 					</a>
 				</div>
+				<!-- Placeholder for Contact Form or Direct Contact Information -->
+				<form
+					class="mx-auto"
+					style="max-width: 600px"
+					action="https://api.web3forms.com/submit"
+					method="POST"
+				>
+					<input
+						type="hidden"
+						name="access_key"
+						value="4405aabd-e7e0-4ba8-bd8a-f8428815f9aa"
+					/>
+
+					<!-- Name field -->
+					<div class="form-group mb-3">
+						<input
+							type="text"
+							class="form-control"
+							id="name"
+							placeholder="Enter your name"
+							name="name"
+							required
+						/>
+					</div>
+
+					<!-- Message Title -->
+					<div class="form-group mb-3">
+						<input
+							type="text"
+							class="form-control"
+							id="email"
+							placeholder="Enter your email address"
+							name="email"
+							required
+						/>
+					</div>
+
+					<!-- Message Content -->
+					<div class="form-group mb-3">
+						<textarea
+							class="form-control"
+							id="content"
+							rows="5"
+							placeholder="Enter your message"
+							name="message"
+							required
+						></textarea>
+					</div>
+
+					<!-- hcaptcha -->
+					<div class="h-captcha mb-2" data-captcha="true"></div>
+
+					<!-- Submit Button -->
+					<button type="submit" class="btn btn-primary">
+						Submit
+					</button>
+				</form>
 				<!-- End of Contact Information -->
 			</div>
 		</section>
