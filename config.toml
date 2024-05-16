@@ -1,0 +1,4 @@
+baseURL = 'https://campbellreid.com/'
+languageCode = 'en-uk'
+title = 'Campbell Reid'
+theme = 'risotto'
