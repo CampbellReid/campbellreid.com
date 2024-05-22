@@ -1,8 +1,8 @@
 ---
-author: Campbell Reid
-title: My Journey in Learning Chess: From Basics to Better Moves
-date: 2024-05-22
-description: Documenting my progress and strategies in improving my chess skills
+author: "Campbell Reid"
+title: "My Journey in Learning Chess: From Basics to Better Moves"
+date: "2024-05-22"
+description: "Documenting my progress and strategies in improving my chess skills"
 ---
 
 Learning chess is a pain in the butt. I know the basic rules, but doing anything complicated? I’m really not that great yet. However, I’ve been looking for a game that can challenge me a bit and give me a hobby besides my university and computer science endeavours.
