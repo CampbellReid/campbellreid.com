@@ -14,4 +14,4 @@ I did some brainstorming work chatgpt to help me improve my spatial reasoning. W
 
 With this plan, I believe I’ll be equipped to improve my score for this graduate roles and land a career I like.
 
-To cap it off, here is an app which includes a plethora of puzzles which seem to mirror the types of puzzles I encounter in these exams. (Polyforms)[https://apps.apple.com/app/id1403036309]
+To cap it off, here is an app which includes a plethora of puzzles which seem to mirror the types of puzzles I encounter in these exams. [Polyforms](https://apps.apple.com/app/id1403036309)
