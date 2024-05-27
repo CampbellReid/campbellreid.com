@@ -1,7 +1,7 @@
 ---
 author: "Campbell Reid"
 title: "Talent Stacking Across Multiple Domains"
-date: "2024-05-22"
+date: "2024-05-27"
 description: "Figuring out where I need to get better to make myself valuable."
 ---
 
